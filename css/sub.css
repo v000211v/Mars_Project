@@ -47,12 +47,46 @@
 }
 
 /* 버튼 */
+.gallery_btns {
+  text-align: center;
+  margin: 120px 60px;
+}
+
 .gallery_btn {
   width: 120px;
   height: 40px;
-  color: #fff;
-  background: var(--gray-dark);
+  color: var(--gray-dark);
+  background: #fff;
   line-height: 40px;
   text-align: center;
+  border: 1px solid var(--gray-dark);
+  margin: 0 10px;
+  outline: none;
   cursor: pointer;
+}
+
+.gallery_btn.on {
+  background: var(--gray-dark);
+  color: #fff;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 23.34%;
+  margin: 10px;
+}
+
+.grid-item {
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.mfp-bg {
+  background: #000;
+  opacity: 0.86;
+}
+
+.mfp-title {
+  color: #fff;
+  font-size: 60px;
 }
